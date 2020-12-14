@@ -50,7 +50,7 @@ sections:
             label: Learn More
             url: /features
       - type: feature_item
-        title: Responsivene
+        title: Responsive
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
