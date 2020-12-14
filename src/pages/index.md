@@ -52,9 +52,8 @@ sections:
       - type: feature_item
         title: Responsive
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          Web make sure that users have the best experience, wether they are on
+          smartphone, tablet or desktop.
         image: images/feature3.png
         image_alt: App user profile preview
         actions:
