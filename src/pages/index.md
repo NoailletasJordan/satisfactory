@@ -26,7 +26,7 @@ sections:
     background: gray
     features:
       - type: feature_item
-        title: Optimization
+        title: Optimized
         content: >-
           Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
           aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
