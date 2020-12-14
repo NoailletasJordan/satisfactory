@@ -82,7 +82,7 @@ sections:
       - type: review_item
         author: Richard Roe
         avatar: images/review3.jpg
-        content: 'As a  '
+        content: 'As a  new barber in New York, the concurrency was very preseant.'
   - type: section_cta
     title: This Is Call To Action Block!
     section_id: call-to-action
