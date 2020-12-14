@@ -37,7 +37,7 @@ sections:
             label: Learn More
             url: /features
       - type: feature_item
-        title: Awesome Feature of Your Services
+        title: SEO
         content: >-
           Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
           sapien interdum luctus. Cras rhoncus condimentum metus sit amet
