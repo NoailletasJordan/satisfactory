@@ -28,7 +28,7 @@
             },
             {
                 "type": "action",
-                "label": "Contact",
+                "label": "Get",
                 "url": "/signup",
                 "primary": true
             }
