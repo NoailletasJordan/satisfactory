@@ -40,7 +40,8 @@ sections:
         title: SEO
         content: >-
           We provide an amazing Search Engine Optimization to place you in the
-          top 3 search results automatically.
+          top 3 search results automatically, making sure your users find you
+          easily.
         image: images/feature2.png
         image_alt: App users welcoming a new member
         actions:
