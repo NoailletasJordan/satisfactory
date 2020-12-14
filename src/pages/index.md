@@ -61,7 +61,7 @@ sections:
   - type: section_reviews
     title: Testimonials
     section_id: reviews
-    subtitle: What our ustomers think
+    subtitle: What our ustomers thinks
     background: white
     reviews:
       - type: review_item
