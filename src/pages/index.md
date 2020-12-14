@@ -20,8 +20,9 @@ sections:
     title: Features
     section_id: features
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      We specialize in small business web design and development. Every line of
+      code is written by hand to ensure the best performance, which helps bring
+      in more customers to your site and bring more revenue to your business.
     background: gray
     features:
       - type: feature_item
