@@ -50,7 +50,7 @@ sections:
             label: Learn More
             url: /features
       - type: feature_item
-        title: Cool Feature of Your Services
+        title: Respon
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
