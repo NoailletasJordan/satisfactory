@@ -70,9 +70,9 @@ sections:
         author: John Doe
         avatar: images/review1.jpg
         content: >-
-          I choosed Satisfactory because of the recommendation of a friend of
-          mine and I have to say I have not be disapointed. They greatly helped
-          me developping my commerce.
+          I chose Satisfactory because of the recommendation of a friend of mine
+          and I have to say I was not disapointed. They greatly helped me
+          developping my commerce with a stunnig product.
       - type: review_item
         author: Jane Roe
         avatar: images/review2.jpg
