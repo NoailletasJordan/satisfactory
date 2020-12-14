@@ -39,9 +39,8 @@ sections:
       - type: feature_item
         title: SEO
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          We provide an amazing Search Engine Optimization to place you in the
+          top 3 search results automatically.
         image: images/feature2.png
         image_alt: App users welcoming a new member
         actions:
