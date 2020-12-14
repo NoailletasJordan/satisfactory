@@ -70,8 +70,9 @@ sections:
         author: John Doe
         avatar: images/review1.jpg
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          I choosed Satisfactory because of the recommendation of a friend of
+          mine and I have to say I have not be disapointed. They greatly helped
+          me developping my commerce
       - type: review_item
         author: Jane Roe
         avatar: images/review2.jpg
