@@ -61,9 +61,7 @@ sections:
   - type: section_reviews
     title: Testimonials
     section_id: reviews
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
+    subtitle: What
     background: white
     reviews:
       - type: review_item
