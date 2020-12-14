@@ -52,7 +52,7 @@ sections:
       - type: feature_item
         title: Responsive
         content: >-
-          Web make sure that users have the best experience, wether they are on
+          We make sure that users have the best experience, whether they are on
           smartphone, tablet or desktop.
         image: images/feature3.png
         image_alt: App user profile preview
