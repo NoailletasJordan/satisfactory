@@ -78,8 +78,8 @@ sections:
         avatar: images/review2.jpg
         content: >-
           It was a pleasure to work with Satisfactory. They totally understood
-          what the challenge of my request was and handled them brillantly. 100%
-          would recommend !
+          what the challenge of my request was and handled them brilliantly.
+          100% would recommend !
       - type: review_item
         author: Richard Roe
         avatar: images/review3.jpg
