@@ -85,7 +85,7 @@ sections:
         content: >-
           As a  new barber in New York, the concurrency was very preseant. But
           they managed the put me in the first 3 barbers in the area less than a
-          week.
+          week. I know get a lot clients with my website.
   - type: section_cta
     title: This Is Call To Action Block!
     section_id: call-to-action
