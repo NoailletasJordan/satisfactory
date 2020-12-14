@@ -82,9 +82,7 @@ sections:
       - type: review_item
         author: Richard Roe
         avatar: images/review3.jpg
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        content: 'As a  '
   - type: section_cta
     title: This Is Call To Action Block!
     section_id: call-to-action
