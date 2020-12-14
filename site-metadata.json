@@ -28,7 +28,7 @@
             },
             {
                 "type": "action",
-                "label": "Get",
+                "label": "Get started",
                 "url": "/signup",
                 "primary": true
             }
