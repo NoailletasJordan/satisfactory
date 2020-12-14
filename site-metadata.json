@@ -29,7 +29,7 @@
             {
                 "type": "action",
                 "label": "Get started",
-                "url": "/signup",
+                "url": "/pricing",
                 "primary": true
             }
         ]
