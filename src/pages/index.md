@@ -28,9 +28,8 @@ sections:
       - type: feature_item
         title: Optimized
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          No Wordpress is used here as we prefer more modern, light and fast
+          technologies.  
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         actions:
