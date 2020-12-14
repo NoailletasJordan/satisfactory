@@ -4,7 +4,7 @@ meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 sections:
   - type: section_hero
-    title: This Is A Big Hero Headline
+    title: Small Business Web Design + Development
     section_id: hero
     content: >-
       No page builders or WordPress - We offer 100% hand-coded websites with
