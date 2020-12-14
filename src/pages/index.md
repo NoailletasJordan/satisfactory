@@ -72,7 +72,7 @@ sections:
         content: >-
           I chose Satisfactory because of the recommendation of a friend of mine
           and I have to say I was not disapointed. They greatly helped me
-          developping my commerce with a stunni,g product.
+          developping my commerce with a stunning product.
       - type: review_item
         author: Jane Roe
         avatar: images/review2.jpg
