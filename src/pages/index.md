@@ -76,9 +76,8 @@ sections:
         author: Jane Roe
         avatar: images/review2.jpg
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
+          It was a pleasure to work with Satisfactory. they totally understood
+          what the challenge of my request was and handled them brillantly
       - type: review_item
         author: Richard Roe
         avatar: images/review3.jpg
