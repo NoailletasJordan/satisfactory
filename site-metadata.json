@@ -28,7 +28,7 @@
             },
             {
                 "type": "action",
-                "label": "Sign Up",
+                "label": "Cont",
                 "url": "/signup",
                 "primary": true
             }
