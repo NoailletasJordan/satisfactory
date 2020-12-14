@@ -61,7 +61,7 @@ sections:
   - type: section_reviews
     title: Testimonials
     section_id: reviews
-    subtitle: Opinion
+    subtitle: Opinions of our previous c
     background: white
     reviews:
       - type: review_item
