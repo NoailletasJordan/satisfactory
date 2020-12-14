@@ -7,8 +7,8 @@ sections:
     title: This Is A Big Hero Headline
     section_id: hero
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+      No page builders or WordPress - We offer 100% hand-coded websites with
+      superior results starting at $150/mo.
     image: images/hero.png
     image_alt: App preview
     actions:
