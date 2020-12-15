@@ -8,7 +8,7 @@ sections:
     background: gray
     pricing_plans:
       - type: pricing_plan
-        title: Site stati
+        title: Site Vitrine
         price: $5/m
         details: |-
           * Lorem ipsum dolor sit amet
