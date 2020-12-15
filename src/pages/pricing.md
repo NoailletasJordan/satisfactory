@@ -67,7 +67,7 @@ sections:
           l'expérience utilisateur, notamment de ceux qui ont une plus faible
           connexion internet.
       - type: faq_item
-        question: Sed scelerisque in ipsum eu sollicitudin?
+        question: Faite vous aussi les logos et le Branding ?
         answer: >-
           Nullam quis ultrices ipsum. Integer eleifend laoreet quam, ac
           dignissim nisi mollis eget. Ut vitae nisi sit amet nisi suscipit
