@@ -76,10 +76,10 @@ sections:
         author: Jane Roe
         avatar: images/review2.jpg
         content: >-
-          It was a pleasure to work with Satisfactory. They totally understood
-          what the challenge of my request was and handled them brilliantly.
-          100% would recommend ! C'etait un  plaisir de travailler avec
-          Satifactory. Ils ont parfaitement 
+
+          Ce fut un plaisir de travailler avec Satisfactory. Ils ont
+          parfaitement compris quel était le défi de ma demande et l'ont géré
+          avec brio. Recommandé à 100% !
       - type: review_item
         author: Richard Roe
         avatar: images/review3.jpg
