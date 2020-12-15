@@ -53,7 +53,7 @@
             },
             {
                 "type": "action",
-                "label": "Sign Up",
+                "label": "",
                 "url": "signup"
             },
             {
