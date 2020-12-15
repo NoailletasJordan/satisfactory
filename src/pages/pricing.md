@@ -67,7 +67,7 @@ sections:
           l'expérience utilisateur, notamment de ceux qui ont une plus faible
           connexion internet.
       - type: faq_item
-        question: Faites vous le design du logos ?
+        question: Faites-vous le design du logos ?
         answer: >-
           Nullam quis ultrices ipsum. Integer eleifend laoreet quam, ac
           dignissim nisi mollis eget. Ut vitae nisi sit amet nisi suscipit
