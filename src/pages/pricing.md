@@ -9,7 +9,7 @@ sections:
     pricing_plans:
       - type: pricing_plan
         title: Site statique
-        price: $5/m
+        price: '400 '
         details: |-
           * Lorem ipsum dolor sit amet
           * Mauris a mi tincidunt
