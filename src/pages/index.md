@@ -34,7 +34,7 @@ sections:
         image_alt: App preview on a phone and tablet
         actions:
           - type: action
-            label: Learn More
+            label: En savoir plus
             url: /features
       - type: feature_item
         title: SEO
