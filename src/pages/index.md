@@ -7,8 +7,8 @@ sections:
     title: Small Business Web Design + Development
     section_id: hero
     content: >-
-      No page builders or WordPress - We offer 100% hand-coded websites with
-      superior results starting at $150/mo.
+      Pas de constructeur de page, pas de Wordpress - Nous travaillons avec les
+      technologies les plus performantes pour vous démarquer de la concurrence. 
     image: images/hero.png
     image_alt: App preview
     actions:
