@@ -43,7 +43,7 @@ sections:
           * Internationnalisation
         actions:
           - type: action
-            label: Selectionner
+            label: Sélectionner
             url: /signup
   - type: section_faq
     title: Questions fréquentes
