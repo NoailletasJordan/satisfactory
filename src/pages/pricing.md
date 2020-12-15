@@ -35,7 +35,7 @@ sections:
             primary: true
       - type: pricing_plan
         title: E-commerce
-        price: $149/m
+        price: '9'
         details: |-
           * Vestibulum non eros quis
           * Aenean iaculis lorem
