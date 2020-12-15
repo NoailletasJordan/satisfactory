@@ -88,6 +88,15 @@
         "subscribe_title": "S'abonner",
         "subscribe_content": "Soyez informés de nos offres de réduction.",
         "content": "",
-        "links": []
+        "links": [
+            {
+                "label": "lorem-ipsum",
+                "url": "lorem-ipsum",
+                "primary": false,
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            }
+        ]
     }
 }
