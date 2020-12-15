@@ -26,10 +26,6 @@ sections:
     background: gray
     actions:
       - type: action
-        label: Free Trial
-        url: /signup
-        primary: true
-      - type: action
         label: View Demo
         url: '#'
   - type: section_cta
