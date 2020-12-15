@@ -69,9 +69,9 @@ sections:
         author: John Doe
         avatar: images/review1.jpg
         content: >-
-          I chose Satisfactory because of the recommendation of a friend of mine
-          and I have to say I was not disapointed. They greatly helped me
-          developping my activity with a stunning product.
+          J'ai choisis Satifactory grâce a la recommandation d'un proche et je
+          dois dire que je n'ai pas été déçu. Ils ont m'ont largement aidé a
+          développer mon activité avec une interface claire et efficace.
       - type: review_item
         author: Jane Roe
         avatar: images/review2.jpg
