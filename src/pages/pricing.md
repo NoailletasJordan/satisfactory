@@ -8,7 +8,7 @@ sections:
     background: gray
     pricing_plans:
       - type: pricing_plan
-        title: Site Vitrine
+        title: Site vitrine
         price: $5/m
         details: |-
           * Lorem ipsum dolor sit amet
