@@ -88,13 +88,6 @@
         "subscribe_title": "S'abonner",
         "subscribe_content": "Soyez informés de nos offres de réduction.",
         "content": "",
-        "links": [
-            {
-                "type": "action",
-                "label": "Made with Stackbit",
-                "url": "https://www.stackbit.com",
-                "new_window": true
-            }
-        ]
+        "links": []
     }
 }
