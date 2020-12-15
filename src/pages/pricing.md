@@ -54,11 +54,10 @@ sections:
       - type: faq_item
         question: En combien de temps mon site me sera délivré ?
         answer: >-
-          Ut cursus, nunc vitae hendrerit viverra, massa ipsum congue quam, sed
-          tempus mauris lacus sit amet nibh. Curabitur laoreet est maximus
-          mollis feugiat. Praesent nibh libero, placerat et justo at, luctus
-          tristique enim. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas.
+          Pour l'offre **Site statique** nous délivrons le site au bout de 5
+          jours, le ** Blog** c'est 8 jours et pour l'**e-commerce** cela dépend
+          de la taille de celui-ci. Vous pouvez vous attendre à un délai de 15 à
+          25 jours.
       - type: faq_item
         question: Aliquam eget purus ante?
         answer: >-
