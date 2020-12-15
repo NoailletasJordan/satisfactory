@@ -86,7 +86,7 @@ sections:
         content: >-
           En tant que nouveau barbier à Paris, la concurrence était très
           présente. Mais ils ont réussi à me mettre en 1ère page des barbiers du
-          secteur sur Google en moins d'une semaine.
+          secteur sur Google en quelques semaines.
   - type: section_cta
     title: Rejoignez nous
     section_id: call-to-action
