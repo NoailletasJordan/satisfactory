@@ -61,9 +61,11 @@ sections:
       - type: faq_item
         question: Pourquoi pas Wordpress ?
         answer: >-
-          Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
-          eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque
-          eget velit. 
+          Si Wordpress est un outil très puissant est utilisé, construire un
+          site avec celui-ci ajoute énormément de code non utilisé. Ce code
+          viendra inutilement ralentir l'accès au site web et détériorer
+          l'expérience utilisateur, notamment de ceux qui ont une plus faible
+          connexion internet.
       - type: faq_item
         question: Sed scelerisque in ipsum eu sollicitudin?
         answer: >-
