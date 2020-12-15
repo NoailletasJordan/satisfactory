@@ -9,7 +9,7 @@ sections:
     content: >-
       Pas de Wordpress - Nous travaillons avec les technologies les plus
       performantes pour vous démarquer de la concurrence. 
-    image: images/hero.png
+    image: /images/undraw_heatmap_uyye.svg
     image_alt: App preview
     actions:
       - type: action
