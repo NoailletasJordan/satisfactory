@@ -52,7 +52,7 @@ sections:
     background: gray
     faq_items:
       - type: faq_item
-        question: Le délais de livraison est de combien de temps?
+        question: Le délais de livraison est de combien de temps ?
         answer: >-
           Pour l'offre **Site statique** nous délivrons le site au bout de 5
           jours, le ** Blog** c'est 8 jours et pour l'**e-commerce** cela dépend
