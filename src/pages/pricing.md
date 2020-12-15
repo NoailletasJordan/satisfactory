@@ -11,10 +11,10 @@ sections:
         title: Site statique
         price: 400€
         details: |-
-          * Lorem ipsum dolor sit amet
-          * Mauris a mi tincidunt
-          * Suspendisse ut lacus
-          * Etiam eget dui a augue
+          * Nombre illimité d'édits 
+          * Hébergement inclus
+          * Service client 7j/7
+          * Jusqu'à 5 pages
         actions:
           - type: action
             label: Order Now
