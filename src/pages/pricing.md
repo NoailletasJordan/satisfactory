@@ -48,7 +48,7 @@ sections:
   - type: section_faq
     title: Questions fréquentes
     section_id: faq
-    subtitle: Si votre question n'est pas listée ici contactez nous.
+    subtitle: Si votre question n'est pas listée ici veillez contactez nous.
     background: gray
     faq_items:
       - type: faq_item
