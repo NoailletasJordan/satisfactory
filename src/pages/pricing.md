@@ -59,7 +59,7 @@ sections:
           de la taille de celui-ci. Vous pouvez vous attendre à un délai de 15 à
           25 jours.
       - type: faq_item
-        question: Aliquam eget purus ante?
+        question: Pourquoi pas Wordpress ?
         answer: >-
           Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
           eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque
