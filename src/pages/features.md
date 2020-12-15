@@ -21,7 +21,7 @@ sections:
 
       Nous offrons aussi un review de vos articles de blog pour les rendre
       accessibles aux crawlers web.
-    image: /images/undraw_success_factors_fay0.svg
+    image: /images/undraw_winners_ao2o.svg
     image_alt: App preview on a phone and tablet
     background: gray
     actions: []
