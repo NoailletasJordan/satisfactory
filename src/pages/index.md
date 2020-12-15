@@ -60,7 +60,7 @@ sections:
             label: Learn More
             url: /features
   - type: section_reviews
-    title: Testimonials
+    title: ' Témoignages'
     section_id: reviews
     subtitle: Ce que nos clients pensent de nous.
     background: white
