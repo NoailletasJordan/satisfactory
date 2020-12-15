@@ -48,7 +48,7 @@ sections:
   - type: section_faq
     title: Questions fréquentes
     section_id: faq
-    subtitle: 'Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.'
+    subtitle: Si votre question
     background: gray
     faq_items:
       - type: faq_item
