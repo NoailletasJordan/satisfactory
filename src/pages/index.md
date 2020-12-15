@@ -53,7 +53,7 @@ sections:
           Pour fournir la meilleure expérience utilisateur possible, nos sites
           sont parfaitement adaptés à tous les supports, smartphone, tablet ou
           ordinateur.
-        image: images/feature3.png
+        image: /images/undraw_Devices_re_dxae.svg
         image_alt: App user profile preview
         actions:
           - type: action
