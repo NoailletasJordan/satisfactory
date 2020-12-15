@@ -17,7 +17,7 @@ sections:
           * Jusqu'à 5 pages
         actions:
           - type: action
-            label: Order Now
+            label: Choisir
             url: /signup
       - type: pricing_plan
         title: Blog
@@ -43,7 +43,7 @@ sections:
           * Internationnalisation
         actions:
           - type: action
-            label: Order Now
+            label: Choisir
             url: /signup
   - type: section_faq
     title: Questions fréquentes
