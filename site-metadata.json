@@ -43,7 +43,7 @@
         "nav_links": [
             {
                 "type": "action",
-                "label": "About Us",
+                "label": "A propos de nous",
                 "url": "/about"
             },
             {
