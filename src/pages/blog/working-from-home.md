@@ -3,8 +3,10 @@ title: Cacher ses informations privées (API keys et autres) dans votre code
 date: '2019-04-22'
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
-  Work at home parent is an entrepreneur who works from home and integrates
-  parenting into his or her business activities.
+  Vos projets web vous demanderont souvent d'utiliser des "credentials" qui
+  serviront à vous identifier. Ces identifiants ne devant pas être accessibles
+  publiquement, nous allons voir comment les masquer tout en partageant votre
+  code sur github.
 image: images/9.jpg
 image_alt: People in a conference room
 thumb_image: images/9_thumb.jpg
