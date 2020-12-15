@@ -84,9 +84,11 @@ sections:
         author: Richard Roe
         avatar: images/review3.jpg
         content: >-
-          As a  new barber in New York, the concurrency was very preseant. But
-          they managed the put me in the first 3 barbers in the area less than a
-          week. I know get a lot clients with my website.
+
+          En tant que nouveau barbier à New York, la concurrence était très
+          présente. Mais ils ont réussi à me mettre dans les 3 premiers barbiers
+          de la région en moins d'une semaine. Je sais attirer beaucoup de
+          clients avec mon site Web.
   - type: section_cta
     title: This Is Call To Action Block!
     section_id: call-to-action
