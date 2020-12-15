@@ -81,7 +81,7 @@ sections:
           parfaitement compris quel était le défi de ma demande et l'ont géré
           avec brio. Recommandé à 100% !
       - type: review_item
-        author: Richard Roe
+        author: Troy Laurent
         avatar: images/review3.jpg
         content: >-
           En tant que nouveau barbier à Paris, la concurrence était très
