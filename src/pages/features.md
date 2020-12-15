@@ -24,10 +24,7 @@ sections:
     image: images/feature1.png
     image_alt: App preview on a phone and tablet
     background: gray
-    actions:
-      - type: action
-        label: View Demo
-        url: '#'
+    actions: []
   - type: section_cta
     title: This Is Call to Action Block!
     section_id: call-to-action
