@@ -88,7 +88,7 @@ sections:
           présente. Mais ils ont réussi à me mettre dans les 2 premiers barbiers
           du secteur sur Google en moins d'une semaine.
   - type: section_cta
-    title: X
+    title: XRejoigner nous
     section_id: call-to-action
     subtitle: This is an optional description for the call to action block.
     actions:
