@@ -8,7 +8,7 @@ sections:
     background: gray
     pricing_plans:
       - type: pricing_plan
-        title: Basic
+        title: Site stati
         price: $5/m
         details: |-
           * Lorem ipsum dolor sit amet
