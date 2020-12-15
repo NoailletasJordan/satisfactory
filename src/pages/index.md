@@ -99,7 +99,7 @@ sections:
         url: /signup
         primary: true
   - type: section_posts
-    title: Latest Posts
+    title: Derniers articles
     section_id: recent-posts
     background: gray
 template: landing
