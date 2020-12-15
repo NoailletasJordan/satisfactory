@@ -20,9 +20,10 @@ sections:
     title: Features
     section_id: features
     subtitle: >-
-      We specialize in small business web design and development. Every line of
-      code is written by hand to ensure the best performance, which helps bring
-      in more customers to your site and bring more revenue to your business.
+      Nous nous spécialisons dans la conception et le développement de sites Web
+      pour petites entreprises. Chaque ligne de code est écrite à la main pour
+      garantir les meilleures performances, ce qui contribue à attirer plus de
+      clients sur votre site et à générer plus de revenus pour votre entreprise.
     background: gray
     features:
       - type: feature_item
