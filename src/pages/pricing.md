@@ -34,7 +34,7 @@ sections:
             url: /signup
             primary: true
       - type: pricing_plan
-        title: Enterprise
+        title: E-commerce
         price: $149/m
         details: |-
           * Vestibulum non eros quis
