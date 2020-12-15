@@ -30,7 +30,7 @@ sections:
         highlight: true
         actions:
           - type: action
-            label: choisir
+            label: Choisir
             url: /signup
             primary: true
       - type: pricing_plan
