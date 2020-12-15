@@ -22,12 +22,11 @@ sections:
       - type: pricing_plan
         title: Blog
         price: 550€
-        details: |-
-          * Curabitur non nunc mollis
-          * Duis a purus nec ligula
-          * Pellentesque sit amet
+        details: |
+          * Points de l'offre Site statique
+          * Analyses de mots-clefs
+          * Review de post pour SEO
           * Fusce tempus mi vitae
-          * Nullam sollicitudin ante
         highlight: true
         actions:
           - type: action
