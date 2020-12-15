@@ -95,7 +95,7 @@ sections:
       digitale top qualité. 
     actions:
       - type: action
-        label: Get Started
+        label: C'est partit
         url: /signup
         primary: true
   - type: section_posts
