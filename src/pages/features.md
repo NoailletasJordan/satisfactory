@@ -2,7 +2,7 @@
 title: Features
 sections:
   - type: section_content
-    title: 'Les clés de '
+    title: Les clés du succes
     section_id: features
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
