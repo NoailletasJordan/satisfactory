@@ -2,7 +2,7 @@
 title: Features
 sections:
   - type: section_content
-    title: ' Conception et développement Web différemment'
+    title: 'La '
     section_id: features
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
