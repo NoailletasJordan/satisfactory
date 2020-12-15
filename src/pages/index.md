@@ -62,7 +62,7 @@ sections:
   - type: section_reviews
     title: Testimonials
     section_id: reviews
-    subtitle: Ce que clients pensent de notre service.
+    subtitle: Ce que nos clients pensent de notre service.
     background: white
     reviews:
       - type: review_item
