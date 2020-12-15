@@ -57,7 +57,7 @@ sections:
         image_alt: App user profile preview
         actions:
           - type: action
-            label: Learn More
+            label: En savoir plus
             url: /features
   - type: section_reviews
     title: ' Témoignages'
