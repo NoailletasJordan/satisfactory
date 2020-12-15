@@ -41,7 +41,7 @@ sections:
         content: >-
           Nous fournissons un Référencement de qualité supérieur pour vous
           placer dans le top des résultats Google en quelques jours seulement.
-        image: /images/undraw_search_engines_nn9e.svg
+        image: /images/undraw_Search_re_x5gq.svg
         image_alt: App users welcoming a new member
         actions:
           - type: action
