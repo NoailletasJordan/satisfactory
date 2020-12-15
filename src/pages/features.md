@@ -28,7 +28,9 @@ sections:
   - type: section_cta
     title: Rejoignez-nous
     section_id: call-to-action
-    subtitle: This is an optional description for the call to action block.
+    subtitle: >-
+      Vous aussi passez votre activité à la vitesse supérieure avec une présence
+      digitale top qualité. 
     actions:
       - type: action
         label: Get Started
