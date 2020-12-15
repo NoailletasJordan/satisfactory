@@ -11,7 +11,7 @@ sections:
         title: Site statique
         price: 400€
         details: |-
-          * Nombre illimité d'édits 
+          * Nombre illimité de révision
           * Hébergement inclus
           * Service client 7j/7
           * Jusqu'à 5 pages
