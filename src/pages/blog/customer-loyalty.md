@@ -4,8 +4,9 @@ subtitle: A story about customer loyalty
 date: '2019-04-23'
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
-  A story about customer loyalty curabitur sed consectetur nisi. Integer sit
-  amet commodo massa.
+  Elle est ma stack préférée, et ayant beaucoup de points forts, elle devient le
+  choix de beaucoup pour développer des projets de toutes tailles. Mais au
+  faite, c'est quoi la JAMstack ?
 image: images/3.jpg
 image_alt: A group of people working in a cafe
 thumb_image: images/3_thumb.jpg
