@@ -1,5 +1,5 @@
 ---
-title: Customer Loyalty Programs That Stick
+title: 'La JAMstack: pourquoi vous devriez l''utiliser?'
 subtitle: A story about customer loyalty
 date: '2019-04-23'
 author: src/data/authors/jane-doe.yaml
