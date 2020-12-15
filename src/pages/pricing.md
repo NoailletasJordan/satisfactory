@@ -46,7 +46,7 @@ sections:
             label: Order Now
             url: /signup
   - type: section_faq
-    title: Frequently Asked Questions
+    title: Questions fréquantes
     section_id: faq
     subtitle: 'Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.'
     background: gray
