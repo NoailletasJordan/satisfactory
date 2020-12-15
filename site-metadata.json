@@ -37,7 +37,7 @@
     "footer": {
         "type": "footer",
         "logo_img": "images/logo_alt.png",
-        "tagline": "SaaS theme by Stackbit",
+        "tagline": "",
         "has_nav": true,
         "nav_title": "Entreprise",
         "nav_links": [
