@@ -53,11 +53,6 @@
             },
             {
                 "type": "action",
-                "label": "",
-                "url": "signup"
-            },
-            {
-                "type": "action",
                 "label": "Contact",
                 "url": "/contact"
             }
