@@ -50,8 +50,9 @@ sections:
       - type: feature_item
         title: Responsive
         content: >-
-          We make sure that users have the best experience, whether they are on
-          smartphone, tablet or desktop.
+          Pour fournir la meilleure expérience utilisateur possible, nos sites
+          sont parfaitement adaptés à tous les supports, smartphone, tablet ou
+          ordinateur.
         image: images/feature3.png
         image_alt: App user profile preview
         actions:
