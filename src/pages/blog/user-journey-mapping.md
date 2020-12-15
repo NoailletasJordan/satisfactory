@@ -1,5 +1,5 @@
 ---
-title: A Guide To User Journey Mapping
+title: Ajouter un nom de domaine (ou sous-domaine) avec Namecheap
 subtitle: >-
   Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
   aliquet rhoncus sed, hendrerit vel odio.
