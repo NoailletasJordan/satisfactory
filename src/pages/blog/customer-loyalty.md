@@ -1,7 +1,7 @@
 ---
 title: 'La JAMstack: pourquoi vous devriez l''utiliser?'
 subtitle: A story about customer loyalty
-date: '2020-11-23'
+date: '2020-11-18'
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
   Elle est ma stack préférée, et ayant beaucoup de points forts, elle devient le
