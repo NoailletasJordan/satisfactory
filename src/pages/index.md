@@ -78,7 +78,8 @@ sections:
         content: >-
           It was a pleasure to work with Satisfactory. They totally understood
           what the challenge of my request was and handled them brilliantly.
-          100% would recommend !
+          100% would recommend ! C'etait un  plaisir de travailler avec
+          Satifactory. Ils ont parfaitement 
       - type: review_item
         author: Richard Roe
         avatar: images/review3.jpg
