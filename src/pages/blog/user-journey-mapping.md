@@ -6,8 +6,8 @@ subtitle: >-
 date: '2019-03-27'
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
-  Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
-  aliquet rhoncus sed, hendrerit vel odio.
+  Ce guide couvre 3 plateformes populaires d'hébergement, Firebase, Heroku et
+  Vercel, pour lequel on va lier son nom de domaine Namecheap.
 image: images/10.jpg
 image_alt: Business people in a meeting
 thumb_image: images/10_thumb.jpg
