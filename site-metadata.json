@@ -23,11 +23,6 @@
             },
             {
                 "type": "action",
-                "label": "Style Guide",
-                "url": "/style-guide"
-            },
-            {
-                "type": "action",
                 "label": "Get started",
                 "url": "/pricing",
                 "primary": true
