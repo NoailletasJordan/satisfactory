@@ -69,8 +69,8 @@ sections:
         author: John Doe
         avatar: images/review1.jpg
         content: >-
-          J'ai choisis Satifactory grâce a la recommandation d'un proche et je
-          dois dire que je n'ai pas été déçu. Ils ont m'ont largement aidé a
+          J'ai choisi Satifactory grâce à la recommandation d'un proche et je
+          dois dire que je n'ai pas été déçu. Ils m'ont largement aidé à
           développer mon activité avec une interface claire et efficace.
       - type: review_item
         author: Jane Roe
