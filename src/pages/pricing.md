@@ -26,7 +26,7 @@ sections:
           * Points de l'offre Site statique
           * Analyses de mots-clefs
           * Review de post pour SEO
-          * Fusce tempus mi vitae
+          * Redaction d'un post de 1000 mots si besoin
         highlight: true
         actions:
           - type: action
