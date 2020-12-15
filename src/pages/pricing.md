@@ -17,7 +17,7 @@ sections:
           * Jusqu'à 5 pages
         actions:
           - type: action
-            label: Choisir
+            label: Sélectionner
             url: /signup
       - type: pricing_plan
         title: Blog
@@ -30,7 +30,7 @@ sections:
         highlight: true
         actions:
           - type: action
-            label: Choisir
+            label: Sélectionner
             url: /signup
             primary: true
       - type: pricing_plan
