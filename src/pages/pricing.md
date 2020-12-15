@@ -21,7 +21,7 @@ sections:
             url: /signup
       - type: pricing_plan
         title: Blog
-        price: $49/m
+        price: '550'
         details: |-
           * Curabitur non nunc mollis
           * Duis a purus nec ligula
