@@ -2,7 +2,7 @@
 title: Pricing
 sections:
   - type: section_pricing
-    title: Plan des
+    title: Plan des tarifs
     section_id: pricing
     subtitle: You can have a separate pricing page or list everything on the home page.
     background: gray
