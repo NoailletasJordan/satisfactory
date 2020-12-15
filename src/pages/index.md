@@ -4,7 +4,7 @@ meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 sections:
   - type: section_hero
-    title: Small Business Web Design + Development
+    title: 'Design et developpement de '
     section_id: hero
     content: >-
       Pas de Wordpress - Nous travaillons avec les technologies les plus
