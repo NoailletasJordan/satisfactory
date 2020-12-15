@@ -85,8 +85,8 @@ sections:
         avatar: images/review3.jpg
         content: >-
           En tant que nouveau barbier à Paris, la concurrence était très
-          présente. Mais ils ont réussi à me mettre dans les 2 premiers barbiers
-          du secteur sur Google en moins d'une semaine.
+          présente. Mais ils ont réussi à me mettre en 1ère page des barbiers du
+          secteur sur Google en moins d'une semaine.
   - type: section_cta
     title: Rejoignez nous
     section_id: call-to-action
