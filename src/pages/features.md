@@ -31,7 +31,7 @@ sections:
     subtitle: Passez votre activité à la vitesse supérieure.
     actions:
       - type: action
-        label: Get Started
+        label: C'est partit
         url: '#'
 template: landing
 ---
