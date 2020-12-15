@@ -21,9 +21,7 @@ sections:
     section_id: features
     subtitle: >-
       Nous nous spécialisons dans la conception et le développement de sites Web
-      pour petites entreprises. Chaque ligne de code est écrite à la main pour
-      garantir les meilleures performances, ce qui contribue à attirer plus de
-      clients sur votre site.
+      pour petites entreprises. 
     background: gray
     features:
       - type: feature_item
