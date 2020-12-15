@@ -4,9 +4,7 @@ date: '2019-04-22'
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
   Vos projets web vous demanderont souvent d'utiliser des "credentials" qui
-  serviront à vous identifier. Ces identifiants ne devant pas être accessibles
-  publiquement, nous allons voir comment les masquer tout en partageant votre
-  code sur github.
+  serviront à vous identifier.
 image: images/9.jpg
 image_alt: People in a conference room
 thumb_image: images/9_thumb.jpg
