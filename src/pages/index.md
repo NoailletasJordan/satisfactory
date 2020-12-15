@@ -39,8 +39,8 @@ sections:
       - type: feature_item
         title: SEO
         content: >-
-          We provide an amazing Search Engine Optimization to place you in the
-          top 3 search results, making sure your users find you with ease.
+          Nous fournissons un Référencement de qualité supérieur pour vous
+          placer dans le top des résultats Google en quelques jours seulement.
         image: images/feature2.png
         image_alt: App users welcoming a new member
         actions:
