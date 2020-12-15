@@ -30,7 +30,7 @@ sections:
           Bonnes pratiques, accessibilité et rapidité sont des concepts
           primordiaux pour nous. Nous ne laissons rien au hasard et privilégions
           la qualité à la quantité.
-        image: images/feature1.png
+        image: /images/undraw_site_stats_l57q.svg
         image_alt: App preview on a phone and tablet
         actions:
           - type: action
