@@ -20,7 +20,7 @@ sections:
             label: Order Now
             url: /signup
       - type: pricing_plan
-        title: Professional
+        title: Blog
         price: $49/m
         details: |-
           * Curabitur non nunc mollis
