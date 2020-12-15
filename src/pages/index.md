@@ -25,7 +25,7 @@ sections:
     background: gray
     features:
       - type: feature_item
-        title: Optimized
+        title: Optimisé
         content: >-
           Bonnes pratiques, accessibilité et rapidité sont des concepts
           primordiaux pour nous. Nous ne laissons rien au hasard et privilégions
