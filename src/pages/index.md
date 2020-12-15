@@ -90,7 +90,7 @@ sections:
   - type: section_cta
     title: Rejoignez nous
     section_id: call-to-action
-    subtitle: Vous aussi
+    subtitle: Vous aussi passez votre avti
     actions:
       - type: action
         label: Get Started
