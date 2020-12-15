@@ -50,8 +50,8 @@ sections:
       - type: feature_item
         title: Responsive
         content: >-
-          Pour fournir la meilleure expérience utilisateur possible, nos sites
-          sont parfaitement adaptés à tous les supports, smartphone, tablet ou
+          Pour fournir la meilleure expérience utilisateur, nos sites sont
+          parfaitement adaptés à tous les supports, smartphone, tablette ou
           ordinateur.
         image: /images/undraw_Devices_re_dxae.svg
         image_alt: App user profile preview
