@@ -90,7 +90,7 @@ sections:
   - type: section_cta
     title: Rejoigner nous
     section_id: call-to-action
-    subtitle: This is an optional description for the call to action block.
+    subtitle: ' En tant que nouveau barbier à Paris, la concurrence était très présente. Mais ils ont réussi à me mettre dans les 2 premiers barbiers du secteur Sur Google en moins d''une semaine. J''attire 25% de mes clients avec mon site Web.'
     actions:
       - type: action
         label: Get Started
