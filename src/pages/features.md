@@ -5,20 +5,22 @@ sections:
     title: Les clés du succès
     section_id: features
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      Nous écrivons méticuleusement le code ligne par ligne. Cela nous donne
+      beaucoup plus de contrôle sur la conception et l'optimisation et le site
+      Web qu'un constructeur de page.
+
+      Par défaut, nous fournissons les services suivants:
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      * Un code propre et organisé pour le référencement de google.
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+      * Une interface entièrement responsive.
 
-      * Phasellus ut enim non lorem venenatis rutrum.
+      * Un hébergement premium à vie.
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
+      Nous offrons aussi un review de vos articles de blog pour les rendre
+      accessibles aux crawlers web.
     image: images/feature1.png
     image_alt: App preview on a phone and tablet
     background: gray
