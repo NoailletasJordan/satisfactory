@@ -45,7 +45,7 @@ sections:
         image_alt: App users welcoming a new member
         actions:
           - type: action
-            label: Learn More
+            label: En savoir plus
             url: /features
       - type: feature_item
         title: Responsive
