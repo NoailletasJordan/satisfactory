@@ -1,5 +1,5 @@
 ---
-title: The Advantages and Disadvantages of Working from Home
+title: Cacher ses informations privées (API keys et autres) dans votre code
 date: '2019-04-22'
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
