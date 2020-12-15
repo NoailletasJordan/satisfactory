@@ -66,7 +66,7 @@ sections:
     background: white
     reviews:
       - type: review_item
-        author: John Doe
+        author: 'Richard '
         avatar: images/review1.jpg
         content: >-
           J'ai choisi Satifactory grâce à la recommandation d'un proche et je
