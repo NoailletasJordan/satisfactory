@@ -35,7 +35,7 @@ sections:
             primary: true
       - type: pricing_plan
         title: E-commerce
-        price: 900+
+        price: 900€+
         details: |-
           * 25 produits
           * Sécurité accrue
