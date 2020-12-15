@@ -37,10 +37,10 @@ sections:
         title: E-commerce
         price: 900+
         details: |-
-          * Vestibulum non eros quis
-          * Aenean iaculis lorem
-          * Mauris eleifend sapien
-          * Phasellus lobortis risus
+          * 25 produits
+          * Sécurité accrue
+          * Optimisé pour le taux de conversion
+          * Internationnalisation
         actions:
           - type: action
             label: Order Now
