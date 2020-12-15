@@ -7,8 +7,8 @@ sections:
     title: Small Business Web Design + Development
     section_id: hero
     content: >-
-      Pas de constructeur de page, pas de Wordpress - Nous travaillons avec les
-      technologies les plus performantes pour vous démarquer de la concurrence. 
+      Pas de Wordpress - Nous travaillons avec les technologies les plus
+      performantes pour vous démarquer de la concurrence. 
     image: images/hero.png
     image_alt: App preview
     actions:
