@@ -28,9 +28,7 @@ sections:
   - type: section_cta
     title: Rejoignez-nous
     section_id: call-to-action
-    subtitle: >-
-      Passez votre activité à la vitesse supérieure avec une présence digitale
-      top qualité. 
+    subtitle: Passez votre activité à la vitesse supérieure.
     actions:
       - type: action
         label: Get Started
