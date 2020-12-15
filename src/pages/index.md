@@ -73,7 +73,7 @@ sections:
           dois dire que je n'ai pas été déçu. Ils m'ont largement aidé à
           développer mon activité avec une interface claire et efficace.
       - type: review_item
-        author: Jane Roe
+        author: Delphine Huot
         avatar: images/review2.jpg
         content: >-
 
