@@ -62,7 +62,7 @@ sections:
   - type: section_reviews
     title: Testimonials
     section_id: reviews
-    subtitle: Opinions of our previous customers
+    subtitle: Ce que les
     background: white
     reviews:
       - type: review_item
