@@ -27,8 +27,9 @@ sections:
       - type: feature_item
         title: Optimized
         content: >-
-          No Wordpress is used here as we prefer more modern, light and fast
-          technologies.  
+          Bonnes pratiques, accessibilité et rapidité sont des concepts
+          primordiaux pour nous. Nous ne laissons rien au hasard et privilégions
+          la qualité à la quantité.
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         actions:
