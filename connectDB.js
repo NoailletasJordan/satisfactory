@@ -2,7 +2,7 @@ const MongoClient = require("mongodb").MongoClient
 const assert = require("assert")
 require("dotenv").config()
 
-const lll = async function () {
+module.exports = async function () {
   // Connection URL
   const url = process.env.MONGODB_URL
 
@@ -29,7 +29,3 @@ const lll = async function () {
     throw new Error("connectDB failed")
   }
 }
-lll()
-// process.env.MONGODB_URL
-
-//console.log(process.env.DB_NAME)
