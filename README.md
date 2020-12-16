@@ -4,7 +4,7 @@
 
 1.  Installer [Node.js and npm](https://nodejs.org/en/)
 
-1.  Créez un fichier .env à la racine du projet et complétez le ainsi:
+1.  Créer un fichier .env à la racine du projet et complétez le ainsi:
 
         MONGODB_URL=<votre-url-mongodb>
         DB_NAME=<votre-nom-de-projet>

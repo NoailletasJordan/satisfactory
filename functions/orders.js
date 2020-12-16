@@ -16,6 +16,7 @@ exports.handler = async (event) => {
       phone: body.phone,
       offer: body.offer,
       desc: body.desc,
+      date: new Date(),
     }
     try {
       // Insert a single document
