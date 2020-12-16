@@ -1,8 +1,7 @@
 const MongoClient = require("mongodb").MongoClient
-const assert = require("assert")
 require("dotenv").config()
 
-module.exports = async function (order) {
+module.exports = async function () {
   // Connection URL
   const url = process.env.MONGODB_URL
 
@@ -16,17 +15,12 @@ module.exports = async function (order) {
     // Use connect method to connect to the Server
     await client.connect()
     const db = client.db(dbName)
-
-    console.log("1")
-
-    let r = await db.collection("orders").insertOne(order)
-    console.log("2")
-    assert.strictEqual(1, r.insertedCount)
-    console.log("3")
-    client.close()
     console.log("connected to db")
+
+    // Return Client to close connection and the Database object
     return {
       client,
+      db,
     }
   } catch (err) {
     console.log(err.stack)

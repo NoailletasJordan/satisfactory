@@ -1,17 +1,20 @@
-# ✨ satisfactory ✨
+# ✨ Satisfactory ✨
 
-## Develop Locally
+## Developpement local
 
-1.  Install [Node.js and npm](https://nodejs.org/en/)
+1.  Installer [Node.js and npm](https://nodejs.org/en/)
 
-1.  Install npm dependencies:
+1.  Créez un fichier .env à la racine du projet et complétez le ainsi:
+
+        MONGODB_URL=<votre-url-mongodb>
+        DB_NAME=<votre-nom-de-projet>
+
+1.  Installer les dépendances:
 
         npm install
 
-1)  Start the Gatsby local development server:
+1.  Démarrer le serveur Gatsby:
 
         npm run develop
 
-1)  Open [http://localhost:8000/](http://localhost:8000/) in the browser
-
-1)  🎉
+1.  Ouvrir [http://localhost:8000/](http://localhost:8000/) sur le navigateur
