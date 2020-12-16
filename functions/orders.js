@@ -6,7 +6,7 @@ const connectDB = require("../connectDB")
 exports.handler = async (event) => {
   if (event.httpMethod === "POST") {
     // Connect to database
-    const { connectDB } = connectDB()
+    const { client, db } = connectDB()
 
     // Create obj to send
     const { body } = event
@@ -23,7 +23,17 @@ exports.handler = async (event) => {
     try {
       // Insert a single document
       let r = await db.collection("orders").insertOne(order)
+      assert.strictEqual(1, r.insertedCount)
+
+      // Success
+      client.close()
+      return {
+        statusCode: 200,
+        body: {},
+        error: null,
+      }
     } catch (e) {
+      // Error
       client.close()
       return {
         statusCode: 400,
@@ -32,14 +42,6 @@ exports.handler = async (event) => {
           message: "Error in API",
         },
       }
-    }
-
-    // Success
-    client.close()
-    return {
-      statusCode: 200,
-      body: {},
-      error: null,
     }
   }
 }
