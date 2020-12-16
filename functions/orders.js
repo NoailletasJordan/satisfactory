@@ -9,7 +9,7 @@ exports.handler = async (event) => {
     const { client, db } = connectDB()
 
     // Create obj to send
-    const { body } = event
+    const body = JSON.parse(event.body)
     console.log(body)
     const order = {
       fullName: body.name,
@@ -26,7 +26,7 @@ exports.handler = async (event) => {
       assert.strictEqual(1, r.insertedCount)
 
       // Success
-      client.close()
+      //client.close()
       return {
         statusCode: 200,
         body: {},
@@ -34,7 +34,7 @@ exports.handler = async (event) => {
       }
     } catch (e) {
       // Error
-      client.close()
+      //client.close()
       return {
         statusCode: 400,
         body: {},
