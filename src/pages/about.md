@@ -1,13 +1,18 @@
 ---
-title: About Us
+title: A propos
 subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
-  about.
-image: images/about.jpg
+
+image: images/about-us.jpg
 image_alt: Team members in a conference room
 template: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur suscipit. Donec molestie volutpat euismod. Nulla gravida ligula in eros facilisis, sed dignissim tellus aliquam. Etiam convallis enim nisi, at suscipit tortor pulvinar at. Nulla a interdum lacus. Sed a porttitor mi. Sed at risus eu orci ultricies mattis sed in tellus. Cras nec neque sed dui vehicula iaculis id vel ex. Phasellus non consectetur augue. Pellentesque condimentum sapien arcu, nec tempus nunc maximus eu. Duis blandit risus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Bienvenue sur Satisfactory, votre partenaire numéro un pour tout produits numériques. Nous nous engageons à vous offrir le meilleur de service, en mettant l'accent sur la qualité, l'écoute, et votre satisfaction.
 
-Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dignissim, orci elit auctor leo, et consectetur est turpis a nunc. Vivamus in faucibus felis. Aenean rutrum magna at ex auctor, congue efficitur ligula feugiat. Proin a egestas arcu. Etiam feugiat turpis quis mollis pellentesque. Sed posuere luctus tortor, a eleifend augue varius sit amet. Integer ultrices neque sed quam dictum, quis vestibulum justo volutpat. Nam vitae tempus leo, ut mattis mi.
+Fondé en 2016 par Gustave Lemieux, Satisfactory a parcouru un long chemin depuis ses débuts à Bordeaux. Lorsque Gustave a commencé, sa passion pour le code l'a poussé à faire des tonnes de recherches afin que Satisfactory puisse vous offrir les sites web les plus performants de France. Nous servons maintenant des clients partout en France et nous sommes ravis de pouvoir créer pour répondre à vos demandes.
+
+Nous espérons que vous apprécierez nos services autant que nous apprécierons de vous les offrir. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter.
+
+Cordialement,
+
+Gustave Lemieux

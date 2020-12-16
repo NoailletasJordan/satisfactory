@@ -32,6 +32,6 @@ sections:
     actions:
       - type: action
         label: C'est partit
-        url: '#'
+        url: "/pricing"
 template: landing
 ---

@@ -1,14 +1,14 @@
 ---
 title: Home
-meta_title: Stackbit Azimuth Theme
-meta_description: The preview of the Azimuth theme
+meta_title: Satisfactory
+meta_description: Web design et développement pour votre business
 sections:
   - type: section_hero
-    title: 'Web design et développement pour votre business '
+    title: "Web design et développement pour votre business "
     section_id: hero
     content: >-
       Pas de Wordpress - Nous travaillons avec les technologies les plus
-      performantes pour vous démarquer de la concurrence. 
+      performantes pour vous démarquer de la concurrence.
     image: /images/undraw_heatmap_uyye.svg
     image_alt: App preview
     actions:
@@ -21,7 +21,7 @@ sections:
     section_id: features
     subtitle: >-
       Nous nous spécialisons dans la conception et le développement de sites Web
-      pour petites entreprises. 
+      pour petites entreprises.
     background: gray
     features:
       - type: feature_item
@@ -39,8 +39,8 @@ sections:
       - type: feature_item
         title: SEO
         content: >-
-          Nous fournissons un Référencement de qualité supérieure pour vous
-          placer dans le top des résultats Google en quelques jours seulement.
+          Nous fournissons un référencement de qualité supérieure pour vous
+          placer dans le top des résultats Google le plus vite possible.
         image: /images/undraw_web_search_eetr.svg
         image_alt: App users welcoming a new member
         actions:
@@ -60,7 +60,7 @@ sections:
             label: En savoir plus
             url: /features
   - type: section_reviews
-    title: ' Témoignages'
+    title: " Témoignages"
     section_id: reviews
     subtitle: Ce que nos clients pensent de nous.
     background: white
@@ -92,11 +92,11 @@ sections:
     section_id: call-to-action
     subtitle: >-
       Vous aussi passez votre activité à la vitesse supérieure avec une présence
-      digitale top qualité. 
+      digitale top qualité.
     actions:
       - type: action
         label: C'est partit
-        url: /signup
+        url: /pricing
         primary: true
   - type: section_posts
     title: Derniers articles

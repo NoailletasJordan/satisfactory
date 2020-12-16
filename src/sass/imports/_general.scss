@@ -15,14 +15,15 @@ body {
   line-height: 1.66667;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  min-height: 100%;
 }
 
 a {
   border-bottom: 1px solid currentColor;
   color: _palette(primary);
   text-decoration: none;
-  -webkit-transition: border-color .15s ease-in-out, color .15s ease-in-out;
-  transition: border-color .15s ease-in-out, color .15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
 
   &:hover,
   &:focus {
@@ -194,8 +195,8 @@ label {
   font-weight: bold;
 }
 
-input[type=checkbox]+label,
-input[type=radio]+label {
+input[type="checkbox"] + label,
+input[type="radio"] + label {
   cursor: pointer;
   padding-left: 0.25em;
   padding-right: 1em;
@@ -258,8 +259,8 @@ input[type="reset"],
   line-height: 1.5;
   padding: 0.5em 30px;
   text-align: center;
-  -webkit-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
 
   &:hover,
   &:focus,

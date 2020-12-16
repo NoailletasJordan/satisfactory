@@ -1,7 +1,7 @@
 ---
-title: 'La JAMstack: pourquoi vous devriez l''utiliser?'
+title: "La JAMstack: pourquoi vous devriez l'utiliser?"
 subtitle: A story about customer loyalty
-date: '2020-11-18'
+date: "2020-11-18"
 author: src/data/authors/jane-doe.yaml
 excerpt: >-
   Elle est ma stack préférée, et ayant beaucoup de points forts, elle devient le
@@ -9,10 +9,10 @@ excerpt: >-
   faite, c'est quoi la JAMstack ?
 image: images/3.jpg
 image_alt: A group of people working in a cafe
-thumb_image: images/3_thumb.jpg
+thumb_image: images/jamstack.png
 thumb_image_alt: A group of people working in a cafe
 template: post
-canonical_url: 'https://blog.jordannoailletas.com/posts/presentation-jamstack'
+canonical_url: "https://blog.jordannoailletas.com/posts/presentation-jamstack"
 ---
 
 **Loyalty** curabitur sed consectetur nisi. Integer sit amet commodo massa. Cras posuere justo magna, id placerat ligula vulputate malesuada. Aenean a ipsum quis neque ornare placerat eu eu orci. Nullam feugiat sed ante in euismod. Pellentesque a nibh dolor. Donec ultrices lacus eget orci commodo ultricies. Morbi placerat purus non varius egestas. Ut tempus ligula quis lorem suscipit, sed vulputate dolor placerat. Aliquam ut massa placerat, vehicula erat non, mattis leo. Pellentesque egestas velit sit amet lectus lobortis, sit amet pharetra ipsum porta. Nullam massa nulla, tincidunt vel volutpat vel, commodo id leo. Curabitur id volutpat lacus, sed commodo velit. Quisque facilisis consectetur nisl vitae vulputate. Proin porttitor ipsum ut diam faucibus, scelerisque posuere ex euismod. Aenean posuere bibendum egestas.

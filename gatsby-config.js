@@ -28,6 +28,12 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
-        }
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+              icon: "static/images/icon.svg", // This path is relative to the root of the site.
+            },
+          },
     ]
 };

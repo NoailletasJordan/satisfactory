@@ -1,9 +1,10 @@
 {
-    "title": "Azimuth",
+    "title": "Satisfactory",
     "palette": "blue",
+    "favicon":"image/favicon.svg",
     "header": {
         "type": "header",
-        "logo_img": "images/logo.png",
+        "logo_img": "images/logo-dark.svg",
         "has_nav": true,
         "nav_links": [
             {
@@ -23,15 +24,15 @@
             },
             {
                 "type": "action",
-                "label": "Get started",
-                "url": "/pricing",
+                "label": "Commander",
+                "url": "/contact",
                 "primary": true
             }
         ]
     },
     "footer": {
         "type": "footer",
-        "logo_img": "images/logo_alt.png",
+        "logo_img": "images/logo-light.svg",
         "tagline": "",
         "has_nav": true,
         "nav_title": "Entreprise",
@@ -52,8 +53,8 @@
                 "url": "/contact"
             }
         ],
-        "has_social": true,
-        "social_title": "Community",
+        "has_social": false,
+        "social_title": "Réseaux",
         "social_links": [
             {
                 "type": "action",

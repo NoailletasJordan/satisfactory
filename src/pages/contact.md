@@ -1,13 +1,11 @@
 ---
-title: Contact
+title: Order
 sections:
   - type: section_contact
-    title: Contact
+    title: Placer une commande
     section_id: contact
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus
-      tortor pretium ligula.
+      Veuillez remplir les champs ci-dessous. Nous vous recontacterons sous 24 heures pour discuter plus en détail de votre projet.
     background: gray
 template: landing
 ---

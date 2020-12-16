@@ -4,7 +4,7 @@ sections:
   - type: section_pricing
     title: Plans des tarifs
     section_id: pricing
-    subtitle: You can have a separate pricing page or list everything on the home page.
+    subtitle: Les requêtes personnalisées peuvent être rajoutées lors de la commande.
     background: gray
     pricing_plans:
       - type: pricing_plan
@@ -18,7 +18,7 @@ sections:
         actions:
           - type: action
             label: Sélectionner
-            url: /signup
+            url: /contact
       - type: pricing_plan
         title: Blog
         price: 550€
@@ -31,7 +31,7 @@ sections:
         actions:
           - type: action
             label: Sélectionner
-            url: /signup
+            url: /contact
             primary: true
       - type: pricing_plan
         title: E-commerce
@@ -44,7 +44,7 @@ sections:
         actions:
           - type: action
             label: Sélectionner
-            url: /signup
+            url: /contact
   - type: section_faq
     title: Questions fréquentes
     section_id: faq
@@ -52,24 +52,24 @@ sections:
     background: gray
     faq_items:
       - type: faq_item
-        question: Le délai de livraison est de combien de temps ?
+        question: Quels sont les délais de livraison ?
         answer: >-
           Pour l'offre **Site statique** nous délivrons le site au bout de 5
-          jours, le ** Blog** c'est 8 jours et pour l'**e-commerce** cela dépend
+          jours, le **Blog** c'est 8 jours et pour l'**e-commerce** cela dépend
           de la taille de celui-ci. Vous pouvez vous attendre à un délai de 15 à
           25 jours.
       - type: faq_item
         question: Pourquoi pas Wordpress ?
         answer: >-
-          Si Wordpress est un outil très puissant est utilisé, construire un
+          Si Wordpress est un outil très populaire et puissant, construire un
           site avec celui-ci ajoute énormément de code non utilisé. Ce code
-          viendra inutilement ralentir l'accès au site web et détériorer
+          viendra inutilement ralentir le site web et détériorer
           l'expérience utilisateur, notamment de ceux qui ont une plus faible
           connexion internet.
       - type: faq_item
         question: Faites-vous le design du logos ?
         answer: >-
-          Absolument. Si vous n'avez pas de logo nous pouvons nous vous en
-          proposerons plusieurs en accord avec votre identité et vos valeurs.
+          Absolument. Si vous n'avez pas de logo nous pouvons vous en
+          proposer plusieurs en accord avec votre identité et vos valeurs.
 template: landing
 ---
