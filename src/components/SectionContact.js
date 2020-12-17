@@ -1,12 +1,17 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
+import SnackbarContext from "../context/SnackbarContext"
 import _ from "lodash"
 import validator from "validator"
+import { navigate } from "gatsby"
 
 import { htmlToReact, markdownify } from "../utils"
 
 export default function SectionContact(props) {
   let section = _.get(props, "section", null)
   const [data, setData] = useState(initialState)
+  console.log(props)
+
+  const { handleOpen } = useContext(SnackbarContext)
 
   const handleDataChange = (fieldName) => (event) =>
     setData({ ...data, [fieldName]: event.target.value })
@@ -24,11 +29,19 @@ export default function SectionContact(props) {
       body: JSON.stringify(data),
     })
 
+    console.log(resBrut)
     const res = await resBrut.json()
-    console.log(res)
     if (resBrut.status >= 200 && resBrut.status < 300 && !res.error) {
       // Success
       setData(initialState)
+      handleOpen(
+        true,
+        "Votre commande a bien été prise en compte, nous vous recontacterons sous 24 heures"
+      )
+      setTimeout(() => {
+        navigate("/")
+      }, 6000)
+
       return
     } else {
       // Error
@@ -74,8 +87,10 @@ export default function SectionContact(props) {
       }
     }
 
-    if (!isValid) console.log(message)
+    // Error
+    if (!isValid) return handleOpen(false, message)
 
+    // Success
     return isValid
   }
 

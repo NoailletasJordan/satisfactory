@@ -13,7 +13,7 @@ sections:
     image_alt: App preview
     actions:
       - type: action
-        label: Learn More
+        label: En savoir plus
         url: /features
         primary: true
   - type: section_features

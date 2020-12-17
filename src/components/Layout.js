@@ -1,48 +1,113 @@
-import React from 'react';
-import {Helmet} from 'react-helmet';
-import _ from 'lodash';
+import React, { useState } from "react"
+import { Helmet } from "react-helmet"
+import _ from "lodash"
 
-import {withPrefix} from '../utils';
-import '../sass/main.scss';
-import Header from './Header';
-import Footer from './Footer';
+import { withPrefix } from "../utils"
+import "../sass/main.scss"
+import Header from "./Header"
+import Footer from "./Footer"
+import Snackbar from "@material-ui/core/Snackbar"
+import MuiAlert from "@material-ui/lab/Alert"
+import SnackbarContext from "../context/SnackbarContext"
 
-export default class Body extends React.Component {
-    render() {
-        let title = _.get(this.props, 'pageContext.frontmatter.title', null) + ' | ' + _.get(this.props, 'pageContext.site.siteMetadata.title', null);
-        if (_.get(this.props, 'pageContext.frontmatter.meta_title', null)) {
-             title = _.get(this.props, 'pageContext.frontmatter.meta_title', null);
-        }
-        return (
-            <React.Fragment>
-                <Helmet>
-                    <title>{title}</title>
-                    <meta charSet="utf-8"/>
-                    <meta name="viewport" content="width=device-width, initialScale=1.0" />
-                    <meta name="google" content="notranslate" />
-                    <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.meta_description', null)}/>
-                    {_.get(this.props, 'pageContext.frontmatter.canonical_url', null) ? (
-                    <link rel="canonical" href={_.get(this.props, 'pageContext.frontmatter.canonical_url', null)}/>
-                    ) : (_.get(this.props, 'pageContext.site.siteMetadata.domain', null) && ((() => {
-                        let domain = _.trim(_.get(this.props, 'pageContext.site.siteMetadata.domain', null), '/');
-                        let page_url = withPrefix(_.get(this.props, 'pageContext.url', null));
-                        return (
-                        	<link rel="canonical" href={domain + page_url}/>
-                        );
-                    })()))}
-                    {_.get(this.props, 'pageContext.frontmatter.no_index', null) && (
-                    <meta name="robots" content="noindex,follow" />
-                    )}
-                    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet"/>
-                </Helmet>
-                <div id="page" className={'site palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette', null)}>
-                  <Header {...this.props} />
-                  <main id="content" className="site-content">
-                    {this.props.children}
-                  </main>
-                  <Footer {...this.props} />
-                </div>
-            </React.Fragment>
-        );
+export default function Body(props) {
+  let title =
+    _.get(props, "pageContext.frontmatter.title", null) +
+    " | " +
+    _.get(props, "pageContext.site.siteMetadata.title", null)
+  if (_.get(props, "pageContext.frontmatter.meta_title", null)) {
+    title = _.get(props, "pageContext.frontmatter.meta_title", null)
+  }
+
+  // Snackbar
+  const [open, setOpen] = useState(false)
+  const [isSuccess, setIsSuccess] = useState(true)
+  const [snackMessage, setSnackMessage] = useState("")
+  const handleOpen = (successBool, message) => {
+    setIsSuccess(successBool)
+    setOpen(true)
+    setSnackMessage(message)
+  }
+  const handleClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return
     }
+    setOpen(false)
+  }
+
+  return (
+    <React.Fragment>
+      <SnackbarContext.Provider value={{ handleOpen, handleClose }}>
+        <Helmet>
+          <title>{title}</title>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta name="google" content="notranslate" />
+          <meta
+            name="description"
+            content={_.get(
+              props,
+              "pageContext.frontmatter.meta_description",
+              null
+            )}
+          />
+          {_.get(props, "pageContext.frontmatter.canonical_url", null) ? (
+            <link
+              rel="canonical"
+              href={_.get(props, "pageContext.frontmatter.canonical_url", null)}
+            />
+          ) : (
+            _.get(props, "pageContext.site.siteMetadata.domain", null) &&
+            (() => {
+              let domain = _.trim(
+                _.get(props, "pageContext.site.siteMetadata.domain", null),
+                "/"
+              )
+              let page_url = withPrefix(_.get(props, "pageContext.url", null))
+              return <link rel="canonical" href={domain + page_url} />
+            })()
+          )}
+          {_.get(props, "pageContext.frontmatter.no_index", null) && (
+            <meta name="robots" content="noindex,follow" />
+          )}
+          <link
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i"
+            rel="stylesheet"
+          />
+        </Helmet>
+        <div
+          id="page"
+          className={
+            "site palette-" +
+            _.get(props, "pageContext.site.siteMetadata.palette", null)
+          }
+        >
+          <Header {...props} />
+
+          <main id="content" className="site-content">
+            {props.children}
+          </main>
+
+          <Footer {...props} />
+        </div>
+        <div style={{ position: "absolute" }}>
+          <Snackbar open={open} autoHideDuration={5000} onClose={handleClose}>
+            <Alert
+              onClose={handleClose}
+              severity={isSuccess ? "success" : "error"}
+            >
+              {snackMessage}
+            </Alert>
+          </Snackbar>
+        </div>
+      </SnackbarContext.Provider>
+    </React.Fragment>
+  )
+}
+
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />
 }

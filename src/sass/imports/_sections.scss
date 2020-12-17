@@ -500,6 +500,9 @@
 
 /* Contact */
 .contact-block {
+  min-height: calc(100vh - 433px);
+  padding-top: 64px;
+
   .contact-form {
     margin-bottom: 1.66667rem;
   }
