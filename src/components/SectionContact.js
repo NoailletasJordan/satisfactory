@@ -20,7 +20,7 @@ export default function SectionContact(props) {
     setIsDisabled(true)
 
     // Validate form
-    if (!isValidData()) return
+    if (!isValidData()) return setIsDisabled(false)
 
     // Send to API
     const resBrut = await fetch("/.netlify/functions/orders", {
@@ -42,7 +42,7 @@ export default function SectionContact(props) {
       )
       setTimeout(() => {
         navigate("/")
-      }, 6000)
+      }, 5200)
 
       return
     } else {
