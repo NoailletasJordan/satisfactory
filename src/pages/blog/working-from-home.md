@@ -1,5 +1,5 @@
 ---
-title: Cacher ses informations privées (API keys et autres) dans votre code
+title: Cacher ses informations privées (API keys et autres) dans son code
 date: "2020-12-4"
 author: src/data/authors/jane-doe.yaml
 excerpt: >-

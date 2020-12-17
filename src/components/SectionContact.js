@@ -9,17 +9,20 @@ import { htmlToReact, markdownify } from "../utils"
 export default function SectionContact(props) {
   let section = _.get(props, "section", null)
   const [data, setData] = useState(initialState)
-  console.log(props)
+  const [isDisabled, setIsDisabled] = useState(false)
 
   const { handleOpen } = useContext(SnackbarContext)
-
   const handleDataChange = (fieldName) => (event) =>
     setData({ ...data, [fieldName]: event.target.value })
 
+  // Submit form
   const handleSubmit = async () => {
-    console.log("sumbit")
+    setIsDisabled(true)
+
+    // Validate form
     if (!isValidData()) return
 
+    // Send to API
     const resBrut = await fetch("/.netlify/functions/orders", {
       headers: {
         Accept: "application/json",
@@ -29,7 +32,6 @@ export default function SectionContact(props) {
       body: JSON.stringify(data),
     })
 
-    console.log(resBrut)
     const res = await resBrut.json()
     if (resBrut.status >= 200 && resBrut.status < 300 && !res.error) {
       // Success
@@ -46,9 +48,13 @@ export default function SectionContact(props) {
     } else {
       // Error
       console.log("Error:", res.message)
+      handleOpen(false, "Error: " + res.message)
     }
+
+    setIsDisabled(false)
   }
 
+  // Validate form
   const isValidData = () => {
     let isValid = true
     let message = ""
@@ -232,7 +238,12 @@ export default function SectionContact(props) {
             value="contactForm"
           />
           <p className="form-row form-submit">
-            <button type="button" className="button" onClick={handleSubmit}>
+            <button
+              type="button"
+              className="button"
+              onClick={handleSubmit}
+              disabled={isDisabled ? true : false}
+            >
               Envoyer
             </button>
           </p>
