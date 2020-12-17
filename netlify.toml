@@ -5,6 +5,6 @@ functions = "./functions"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
+  for = "./functions/*"
     [headers.values]
-    Access-Control-Allow-Origin= "https://satisfactory.jordannoailletas.com"
+    Access-Control-Allow-Origin= "null"
