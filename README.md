@@ -1,7 +1,7 @@
 # Satisfactory
 
 Une application web pour la vente de services (ici numériques).
-Créé avec Gatsby, les commandes effectuées sont envoyé sur une base de données **NoSql** via backend **serverless**.
+Créée avec Gatsby, les commandes effectuées sont envoyé sur une base de données **NoSql** via backend **serverless**.
 
 ### Rapport Lighthouse
 
