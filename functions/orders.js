@@ -4,6 +4,7 @@ const assert = require("assert")
 const connectDB = require("../connectDB")
 
 exports.handler = async (event) => {
+  console.log("event :", event)
   if (event.httpMethod === "POST") {
     // Connect to database
     const { client, db } = await connectDB()

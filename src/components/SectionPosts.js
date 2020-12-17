@@ -1,23 +1,23 @@
-import React from "react";
-import _ from "lodash";
+import React from "react"
+import _ from "lodash"
 
-import { htmlToReact, getPages, Link, withPrefix } from "../utils";
-import BlogPostFooter from "./BlogPostFooter";
+import { htmlToReact, getPages, withPrefix } from "../utils"
+import BlogPostFooter from "./BlogPostFooter"
 const links = [
   "https://blog.jordannoailletas.com/posts/ajouter-nom-domaine-namecheap",
   "https://blog.jordannoailletas.com/posts/comment-effacer-mdp-github",
   "https://blog.jordannoailletas.com/posts/presentation-jamstack",
-];
-let i = -1;
+]
+let i = -1
 export default class SectionPosts extends React.Component {
   render() {
-    let section = _.get(this.props, "section", null);
+    let section = _.get(this.props, "section", null)
     let display_posts = _.orderBy(
       getPages(this.props.pageContext.pages, "/blog"),
       "frontmatter.date",
       "desc"
-    );
-    let recent_posts = display_posts.slice(0, 3);
+    )
+    let recent_posts = display_posts.slice(0, 3)
     return (
       <section
         id={_.get(section, "section_id", null)}
@@ -40,7 +40,7 @@ export default class SectionPosts extends React.Component {
         <div className="inner">
           <div className="post-feed">
             {_.map(recent_posts, (post, post_idx) => {
-              i++;
+              i++
               return (
                 <article key={post_idx} className="post post-card">
                   <div className="post-card-inside">
@@ -74,11 +74,11 @@ export default class SectionPosts extends React.Component {
                     </div>
                   </div>
                 </article>
-              );
+              )
             })}
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
