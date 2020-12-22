@@ -11,7 +11,7 @@ export default function SectionContact(props) {
     fullName: "",
     email: "",
     phone: "",
-    offer: getParam(),
+    offer: getParam(props),
     desc: "",
   }
   let section = _.get(props, "section", null)
@@ -105,15 +105,6 @@ export default function SectionContact(props) {
 
     // Success
     return isValid
-  }
-
-  // Not exactly param since its not a key-value pair, just a value
-  function getParam() {
-    const param = props.location.href.substring(30)
-    if (param === "statique" || param === "blog" || param === "e-commerce")
-      return param
-
-    return ""
   }
 
   return (
@@ -267,4 +258,13 @@ export default function SectionContact(props) {
       </div>
     </section>
   )
+}
+
+// Not exactly param since its not a key-value pair, just a value
+function getParam(props) {
+  const param = props.location.href.substring(30)
+  if (param === "statique" || param === "blog" || param === "e-commerce")
+    return param
+
+  return ""
 }
