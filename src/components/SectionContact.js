@@ -7,6 +7,13 @@ import { navigate } from "gatsby"
 import { htmlToReact, markdownify } from "../utils"
 
 export default function SectionContact(props) {
+  const initialState = {
+    fullName: "",
+    email: "",
+    phone: "",
+    offer: getParam(),
+    desc: "",
+  }
   let section = _.get(props, "section", null)
   const [data, setData] = useState(initialState)
   const [isDisabled, setIsDisabled] = useState(false)
@@ -98,6 +105,15 @@ export default function SectionContact(props) {
 
     // Success
     return isValid
+  }
+
+  // Not exactly param since its not a key-value pair, just a value
+  function getParam() {
+    const param = props.location.href.substring(30)
+    if (param === "statique" || param === "blog" || param === "e-commerce")
+      return param
+
+    return ""
   }
 
   return (
@@ -207,7 +223,7 @@ export default function SectionContact(props) {
               value={data.offer}
               onChange={handleDataChange("offer")}
             >
-              <option value="">--Choisissez une valeur--</option>
+              <option value="">--Choisissez une offre--</option>
               <option value="statique">Site statique</option>
               <option value="blog">Blog</option>
               <option value="e-commerce">E-commerce</option>
@@ -251,12 +267,4 @@ export default function SectionContact(props) {
       </div>
     </section>
   )
-}
-
-const initialState = {
-  fullName: "",
-  email: "",
-  phone: "",
-  offer: "",
-  desc: "",
 }

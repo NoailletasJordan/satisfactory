@@ -18,7 +18,7 @@ sections:
         actions:
           - type: action
             label: Sélectionner
-            url: /contact
+            url: /contact?statique
       - type: pricing_plan
         title: Blog
         price: 550€
@@ -31,7 +31,7 @@ sections:
         actions:
           - type: action
             label: Sélectionner
-            url: /contact
+            url: /contact?blog
             primary: true
       - type: pricing_plan
         title: E-commerce
@@ -44,7 +44,7 @@ sections:
         actions:
           - type: action
             label: Sélectionner
-            url: /contact
+            url: /contact?e-commerce
   - type: section_faq
     title: Questions fréquentes
     section_id: faq
