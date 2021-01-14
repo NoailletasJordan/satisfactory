@@ -15,6 +15,11 @@ Créée avec Gatsby, les commandes effectuées sont envoyé sur une base de donn
 
 1.  Installez [Netlify Dev](https://www.netlify.com/products/dev/) et [Node.js / npm](https://nodejs.org/en/).
 
+1.  Clonez ce repository
+
+        $ git clone https://github.com/NoailletasJordan/satisfactory.git
+        $ cd satisfactory
+
 1.  Créez un fichier **.env** à la racine du projet et complétez le ainsi:
 
         MONGODB_URL=<votre-url-mongodb>
@@ -24,10 +29,10 @@ Créée avec Gatsby, les commandes effectuées sont envoyé sur une base de donn
 
 1.  Installez les dépendances:
 
-        npm install
+        $ npm install
 
 1.  Démarrez le serveur Gatsby et les fonctions serverless:
 
-        netlify dev
+        $ netlify dev
 
 1.  Ouvrez [http://localhost:8000/](http://localhost:8000/) sur le navigateur.
