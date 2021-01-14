@@ -47,7 +47,7 @@ export default function Body(props) {
 					/>
 					<meta
 						property="og:description"
-						content="Service de création de site web"
+						content="Service de création de sites web"
 					/>
 					<meta charSet="utf-8" />
 					<meta
